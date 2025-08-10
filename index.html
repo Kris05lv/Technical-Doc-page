@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML & CSS Documentation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav id="navbar">
+        <header>HTML & CSS Documentation</header>
+        <a href="#Introduction" class="nav-link">Introduction</a>
+        <a href="#HTML_Basics" class="nav-link">HTML Basics</a>
+        <a href="#CSS_Fundamentals" class="nav-link">CSS Fundamentals</a>
+        <a href="#Layout_and_Box_Model" class="nav-link">Layout and Box Model</a>
+        <a href="#Responsive_Design" class="nav-link">Responsive Design</a>
+    </nav>
+
+    <main id="main-doc">
+        <section class="main-section" id="Introduction">
+            <header>Introduction</header>
+            <p>HTML (HyperText Markup Language) and CSS (Cascading Style Sheets) are the fundamental technologies for building web pages.</p>
+            <p>HTML provides the structure while CSS handles the styling and layout.</p>
+            <code>&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;title&gt;My First Page&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;Hello, Web!&lt;/h1&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code>
+            <ul>
+                <li>HTML defines the content structure</li>
+                <li>CSS controls the visual presentation</li>
+            </ul>
+        </section>
+
+        <section class="main-section" id="HTML_Basics">
+            <header>HTML Basics</header>
+            <p>HTML uses tags to define different types of content and their relationships.</p>
+            <p>Tags are enclosed in angle brackets and usually come in pairs - an opening tag and a closing tag.</p>
+            <p>HTML5 introduced many semantic elements that make the document structure more meaningful.</p>
+            <ul>
+                <li>Elements are defined by tags</li>
+                <li>Attributes provide additional information</li>
+                <li>Semantic markup improves accessibility</li>
+            </ul>
+            <code>&lt;article&gt;
+    &lt;h2&gt;Article Title&lt;/h2&gt;
+    &lt;p&gt;Article content goes here.&lt;/p&gt;
+&lt;/article&gt;</code>
+        </section>
+
+        <section class="main-section" id="CSS_Fundamentals">
+            <header>CSS Fundamentals</header>
+            <p>CSS works by selecting HTML elements and applying styles to them.</p>
+            <p>Styles can be applied using selectors, properties, and values.</p>
+            <code>.my-class {
+    color: blue;
+    font-size: 16px;
+    margin: 20px;
+}</code>
+        </section>
+
+        <section class="main-section" id="Layout_and_Box_Model">
+            <header>Layout and Box Model</header>
+            <p>The CSS box model is fundamental to layout and spacing in web design.</p>
+            <p>Every element in web design is a rectangular box with properties for margin, border, padding, and content.</p>
+            <code>.box {
+    margin: 10px;
+    border: 1px solid black;
+    padding: 20px;
+    width: 300px;
+}</code>
+            <ul>
+                <li>Content is the actual material inside the box</li>
+                <li>Padding is the space around the content</li>
+            </ul>
+        </section>
+
+        <section class="main-section" id="Responsive_Design">
+            <header>Responsive Design</header>
+            <p>Responsive design ensures websites work well on all device sizes.</p>
+            <p>Media queries allow different styles for different screen sizes.</p>
+            <code>@media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+}</code>
+            <ul>
+                <li>Use flexible grids and layouts</li>
+                <li>Implement responsive images</li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
